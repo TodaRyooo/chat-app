@@ -27,7 +27,7 @@ const ThreadDetailPage = () => {
         <div
           key={index}
           onClick={() =>
-            router.push(`/threadDetail/${item.threadId}?id=${item.threadId}`)
+            router.push(`/details/${item.threadId}`)
           }
         >
           {item.title}
